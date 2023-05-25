@@ -1,0 +1,4 @@
+Things that interest me to setup / play with.. 
+	- Look into splunk / tenable
+	- Build / stand up proxy server (or reverse proxy).. will need to review and find something free 
+	- Integrate Ubuntu into AD and setup 

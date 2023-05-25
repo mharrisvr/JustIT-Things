@@ -1,4 +1,31 @@
-Things that interest me to setup / play with.. 
+Taking ideas from Screenshot I took of Reddit Post in R/ITCareerQuestions (6/24/2020)
+
+- Install Server OS on Hardare / VM
+- Install Active Directory on that server 
+- Fill out AD Forestt with characters from the simpsons (Any TV show or anything would work)
+- Make Groups for "Power Plant", "Immediate Family", "Extended Family", "School", etc
+- Note that many of the characters would overlap and be part of multiple groups
+- Create a shared Drive and make folders for each group, give access to each appropritate group, give access for each appropriate folder. 
+- Make policy for password resets, password complexity, and requires, etc (Group Policy)
+- Make a windows 10 machine adn join in to the Domain. 
+- Find the computer object in AD, put it in an OU, make that OU the default for computer objects
+- Limit domain joins to domain admins only
+	- https://social.technet.microsoft.com/wiki/contents/articles/5446.active-directory-how-to-prevent-authenticated-users-from-joining-workstations-to-a-domain.aspx
+- Use a GPO to prevent any user from using removable storage
+- Write a powershell script to install updates (Maybe setup WSUS / Update management down the road)
+- Write Powershell script to create new user
+	- Modify PS script to create a folder location on the shared drive that only the user and domain admin have access to. 
+- Use a GPO to block the clearing of the TPM Chip, or to force updates
+	- Google "Most Useful GPOs" and deploy some of those. 
+- Create 2 more servers to make an ADFS join 
+- If access to Win10 Pro on physical machine, create a GPO and powershell script to encrypt it. Save the key in Active Directory.  
+	- https://serverspace.io/support/help/bitlocker-active-directory/
+
+Personal Things that interest me to setup / play with.. 
 	- Look into splunk / tenable
 	- Build / stand up proxy server (or reverse proxy).. will need to review and find something free 
 	- Integrate Ubuntu into AD and setup 
+	- Configuring AD Bitlocker integration
+	- Unifi AD Authentication
+	- Minecraft server automation (quickly setup, rebuild, etc). 
+	- Backups (Possibly VEAMM)? 

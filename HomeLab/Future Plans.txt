@@ -26,6 +26,7 @@ Personal Things that interest me to setup / play with..
 	- Build / stand up proxy server (or reverse proxy).. will need to review and find something free 
 	- Integrate Ubuntu into AD and setup 
 	- Configuring AD Bitlocker integration
-	- Unifi AD Authentication
+	- Unifi IDentity
+		- https://wiki.ui.com/docs/uid
 	- Minecraft server automation (quickly setup, rebuild, etc). 
 	- Backups (Possibly VEAMM)? 

@@ -1,0 +1,30 @@
+Homelab setup.. 
+# 5-24-23
+
+# Notes: 
+	- 
+
+Day 1: 
+	- VMs.. All manually (Will eventually rewrite all of this creation to automate in powershell) 
+Using Hyper-V
+
+VMs
+- KeyesDC01 (Primary Domain Controller)
+	- Windows Server 2022
+	- Gen 2
+	- 2048MB Ram
+	- No networking yet. 
+	- 127GB Configuration (Default).. but will update to smaller since not needed
+
+- KeyesDC02 (Secondary Domain Controller)
+	- Windows Server 2022
+	- Gen 2
+	- 2048MB Ram
+	- No networking yet. 
+	- 40GB VHDx
+
+
+Things that interest me to setup / play with.. 
+	- Look into splunk / tenable
+	- Build / stand up proxy server (or reverse proxy).. will need to review and find something free 
+	- Integrate Ubuntu into AD and setup 

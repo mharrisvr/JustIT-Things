@@ -8,7 +8,8 @@ Day 1:
 	- VMs.. All manually (Will eventually rewrite all of this creation to automate in powershell) 
 Using Hyper-V
 
-VMs
+1. Computers / VMs 
+
 - KeyesDC01 (Primary Domain Controller)
 	- Windows Server 2022
 	- Gen 2
@@ -22,3 +23,20 @@ VMs
 	- 2048MB Ram
 	- No networking yet. 
 	- 40GB VHDx
+	
+Ended Here 5-24 (Issue with Server 2022 image downloaded.. will probably go down to 2019). 
+
+#####################################################################################################################
+
+2. Setup Active Directory
+	2.1. Create Users? 
+	2.2. OUs? 
+	2.3. 
+
+
+Resources: 
+1. So far no need for resources since I am familiar with Hyper-V. 
+
+2: https://www.ittsystems.com/active-directory-setup-guide/
+   https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-
+   https://www.comparitech.com/net-admin/active-directory-step-by-step-tutorial/
